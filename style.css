@@ -1,0 +1,66 @@
+body {
+  font-family: 'Inter', sans-serif;
+  display: grid;
+  grid-template-columns: 400px 1fr;
+}
+
+header {
+  background: var(--gradient);
+  display: grid;
+}
+
+header > h1 {
+  align-self: center;
+  text-align: center;
+  color: white;
+}
+
+main {
+  padding: 2rem;
+  display: grid;
+  align-content: center;
+}
+
+
+form {
+  padding-top: 4rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+}
+.field {
+  display: grid;
+}
+
+label {
+  font-size: 0.8rem;
+  padding-bottom: 0.5rem;
+}
+input {
+  padding: 0.5rem;
+  border-radius: 4px;
+  border: 1px dashed deeppink;
+}
+
+.action {
+  padding-top: 4rem;
+}
+
+.action > button {
+  padding: 0.7rem 1rem;
+  border-radius: 8px;
+  background: deeppink;
+  border: none;
+  color: white;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+button:hover {
+  background: lightgrey;
+  cursor: pointer;
+}
+
+.action > p {
+  padding-top: 1rem;
+}
